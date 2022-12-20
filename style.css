@@ -1,0 +1,170 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header-transparent {
+    background-color: #272729;
+    background-image: url(images/cover.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    background-blend-mode: overlay;
+    /* opacity: 0.5; */
+
+}
+
+.nav-link,
+.nav-brand {
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: rgb(39, 32, 32);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+#discription {
+    position: absolute;
+    bottom: 15%;
+    transform: translate(-50%, -55%);
+}
+
+#search {
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: #888888;
+}
+
+
+.box {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card {
+    border: none;
+    padding-bottom: 90px;
+}
+
+#box2 {
+    padding-top: 60px;
+}
+#Sright{
+    position: relative;
+    left: 80%; 
+}
+#right {
+    position: relative;
+    left: 30%;
+}
+
+.btn {
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+hr {
+    width: 70%;
+}
+
+.box3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.box3 hr {
+    width: 100%;
+}
+
+.box3 .card {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    box-shadow: #888888  10px 10px;
+}
+
+#viewbtn{
+    padding-top: 50px;
+}
+#viewbtn .btn {
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#avatar{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.avatar-img{
+    margin-left: 30px;
+}
+.box4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.box5{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.box5
+.card{
+    width: 40%;
+    height: 5px;
+    left:30%;
+    box-shadow: #888888  5px 5px;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+#brands{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.brand-img{
+    margin-left: 30px;
+}
+
+
+/* carousel */
+.carousel-item
+.card{
+    margin: auto;
+    width:60%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.carousel-item
+p{
+    font-size: large;
+    color: rgb(45, 45, 114);
+}
+.carousel-item
+.avatar-img{
+    padding-bottom: 20px;
+}
+
+/* footer */
+#email{
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#Email-right{
+    position: relative;
+    left: 20%; 
+}
